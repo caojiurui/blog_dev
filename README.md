@@ -22,7 +22,7 @@
 * 假如需要配置域名，域名直接配置到 `/source/CNAME` 文件，不带协议前缀
 
 ---
-#####参考文档：
+##### 参考文档：
 1. Hexo简介(by 墨飞_Max)：[https://www.cnblogs.com/mophy/p/7016331.html](https://www.cnblogs.com/mophy/p/7016331.html)
 2. Hexo简洁主题推荐 (by 屠城9441) [https://www.haomwei.com/technology/maupassant-hexo.html](https://www.haomwei.com/technology/maupassant-hexo.html)
 
