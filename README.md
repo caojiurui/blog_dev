@@ -1,79 +1,31 @@
----
-title: 文章1
-date: 2013/07/13 20:46:25
-updated: 2013/07/18 20:46:25
-tags:
-    - 标签1
-    - 标签2
-categories:
-    - 分类1
-comments: true
-permalink: a
+
+## 个人博客开发 
+[个人博客](https://nbjqr.xyz)开发mini框架，基于node插件一大堆又怕数据丢失，就放在github上了。
+
+### 一：安装软件
+* 安装 `git` 
+* 安装 `nodejs`
+### 二：安装node插件
+1. 全局安装hexo插件 `npm install hexo-cli -g`
+2. 下载git源码到  `git clone https://github.com/caojiurui/blog_dev.git 目录`
+3. `cd 目录`，解压 `node_modules` 到当前目录
+### 三：本地调试博客页面
+* 清空缓存 `hexo clean`
+* 调试启动服务 `hexo s --debug`
+### 四：发布到github
+* 生产静态页面 `hexo g`
+* 推送到github `hexo d`
+	> git的配置在`_config.yml` 的 `deploy` 属性
+
+#### 备注
+* 假如部署到github主页上，项目名称为 `<username>.github.io`
+* 假如需要配置域名，域名直接配置到 `/source/CNAME` 文件，不带协议前缀
 
 ---
+#####参考文档：
+1. Hexo简介(by 墨飞_Max)：[https://www.cnblogs.com/mophy/p/7016331.html](https://www.cnblogs.com/mophy/p/7016331.html)
+2. Hexo简洁主题推荐 (by 屠城9441) [https://www.haomwei.com/technology/maupassant-hexo.html](https://www.haomwei.com/technology/maupassant-hexo.html)
 
-这是内容，这是[博客](https://nbjqr.xyz/)!
+<br/>
 
-## 这是二级目录
-
----
-
-### 这是三级目录
-#### 这是四级目录
-
-```
-这是代码块(有序)，还能"变个色"
-```
-
-```YML
-key: value ## 注释
-```
-
-- - -
-
-### 这是三级目录（无序）
-* 这是行1
-    > 这是行一的引用说明
-    >> 这是行一的引用说明
-+ 这是行2
-
-![](http://www.j0.cn/upload/file/4d8/15/24/63d9c2912401000/cover/middle.png)
-[图片链接](http://www.j0.cn/upload/file/462/f/29/5a55f44bb401000/cover/small.png)
-
-超链接<a href="http://www.baidu.com">你谁啊</a>
-本地图片<img src="test.png" >
-
-![本地图片](test.png)
-
-
-
-{% blockquote [author[, source]] [link] [source_link_title] %}
-content
-{% endblockquote %}
-
-{% codeblock %}
-alert('Hello World!');
-{% endcodeblock %}
-
-普通 `带背景`  _斜体_ **加粗** [链接](https://www.baidu.com)
-
-转义符 \* ~~删除我~~
-
-<table border="1">
-    <tr>
-        <th>Foo</th>
-        <th>Foo2</th>
-        <th>Foo3</th>
-        <th>Foo4</th>
-    </tr>
-    <tr>
-        <td>Foo</td>
-        <td>Foo2</td>
-        <td>Foo3</td>
-        <td>Foo4</td>
-    </tr>
-</table>
-
-
-
-<script> //支持script </script>
+**[我的博客：树洞X](https://nbjqr.xyz)**
