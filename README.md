@@ -28,4 +28,4 @@
 
 <br/>
 
-**[我的博客：树洞X](https://nbjqr.xyz)**
+**[我的博客：树洞X](http://ojbkk.cn/dist/blog/index.html)**
