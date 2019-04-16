@@ -8,12 +8,12 @@
 ### 二：安装node插件
 1. 全局安装hexo插件 `npm install hexo-cli -g`
 2. 下载git源码到  `git clone https://github.com/caojiurui/blog_dev.git 目录`
-3. `cd 目录`，解压 `node_modules` 到当前目录
+3. `cd 目录`，执行 `npm install` 
 ### 三：本地调试博客页面
 * 清空缓存 `hexo clean`
 * 调试启动服务 `hexo s --debug`
 ### 四：发布到github
-* 生产静态页面 `hexo g`
+* 生成静态页面 `hexo g`
 * 推送到github `hexo d`
 	> git的配置在`_config.yml` 的 `deploy` 属性
 
